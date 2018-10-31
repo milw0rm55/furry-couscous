@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD57B3F2218095AE00D29DEB /* FirsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD57B3F1218095AE00D29DEB /* FirsSection.swift */; };
+		DD57B3F4218095D600D29DEB /* SecondSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD57B3F3218095D600D29DEB /* SecondSection.swift */; };
+		DDCB4F73218076AC002144DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCB4F72218076AC002144DB /* AppDelegate.swift */; };
+		DDCB4F7A218076AF002144DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCB4F79218076AF002144DB /* Assets.xcassets */; };
+		DDCB4F7D218076AF002144DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCB4F7B218076AF002144DB /* LaunchScreen.storyboard */; };
+		DDCB4F8A21807759002144DB /* PrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCB4F8821807759002144DB /* PrincipalViewController.swift */; };
+		DDCB4F8B21807759002144DB /* PrincipalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDCB4F8921807759002144DB /* PrincipalViewController.xib */; };
+		DDCB4F8F218077DD002144DB /* KeyboardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCB4F8D218077DD002144DB /* KeyboardsTableViewCell.swift */; };
+		DDCB4F90218077DD002144DB /* KeyboardsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDCB4F8E218077DD002144DB /* KeyboardsTableViewCell.xib */; };
+		DDCB4F932180819E002144DB /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCB4F912180819E002144DB /* GeneralViewController.swift */; };
+		DDCB4F942180819E002144DB /* GeneralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDCB4F922180819E002144DB /* GeneralViewController.xib */; };
+		DDCB4F982180892B002144DB /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCB4F962180892A002144DB /* SwitchTableViewCell.swift */; };
+		DDCB4F992180892B002144DB /* SwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDCB4F972180892B002144DB /* SwitchTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD57B3F1218095AE00D29DEB /* FirsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirsSection.swift; sourceTree = "<group>"; };
+		DD57B3F3218095D600D29DEB /* SecondSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSection.swift; sourceTree = "<group>"; };
+		DDCB4F6F218076AC002144DB /* FinalReplicarSettingsKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalReplicarSettingsKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCB4F72218076AC002144DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDCB4F79218076AF002144DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDCB4F7C218076AF002144DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDCB4F7E218076AF002144DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCB4F8821807759002144DB /* PrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalViewController.swift; sourceTree = "<group>"; };
+		DDCB4F8921807759002144DB /* PrincipalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrincipalViewController.xib; sourceTree = "<group>"; };
+		DDCB4F8D218077DD002144DB /* KeyboardsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardsTableViewCell.swift; sourceTree = "<group>"; };
+		DDCB4F8E218077DD002144DB /* KeyboardsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyboardsTableViewCell.xib; sourceTree = "<group>"; };
+		DDCB4F912180819E002144DB /* GeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
+		DDCB4F922180819E002144DB /* GeneralViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GeneralViewController.xib; sourceTree = "<group>"; };
+		DDCB4F962180892A002144DB /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		DDCB4F972180892B002144DB /* SwitchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDCB4F6C218076AC002144DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD57B3EB21808FD700D29DEB /* SwitchCell */ = {
+			isa = PBXGroup;
+			children = (
+				DDCB4F962180892A002144DB /* SwitchTableViewCell.swift */,
+				DDCB4F972180892B002144DB /* SwitchTableViewCell.xib */,
+			);
+			path = SwitchCell;
+			sourceTree = "<group>";
+		};
+		DD57B3EC21808FF000D29DEB /* ArrowCell */ = {
+			isa = PBXGroup;
+			children = (
+				DDCB4F8E218077DD002144DB /* KeyboardsTableViewCell.xib */,
+				DDCB4F8D218077DD002144DB /* KeyboardsTableViewCell.swift */,
+			);
+			path = ArrowCell;
+			sourceTree = "<group>";
+		};
+		DD57B3ED218094B800D29DEB /* GeneralVC */ = {
+			isa = PBXGroup;
+			children = (
+				DDCB4F912180819E002144DB /* GeneralViewController.swift */,
+				DDCB4F922180819E002144DB /* GeneralViewController.xib */,
+			);
+			path = GeneralVC;
+			sourceTree = "<group>";
+		};
+		DD57B3EE218094DE00D29DEB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD57B3EF2180950600D29DEB /* PrincipalVC */,
+				DD57B3ED218094B800D29DEB /* GeneralVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DD57B3EF2180950600D29DEB /* PrincipalVC */ = {
+			isa = PBXGroup;
+			children = (
+				DDCB4F8921807759002144DB /* PrincipalViewController.xib */,
+				DDCB4F8821807759002144DB /* PrincipalViewController.swift */,
+			);
+			path = PrincipalVC;
+			sourceTree = "<group>";
+		};
+		DD57B3F02180953300D29DEB /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				DD57B3F1218095AE00D29DEB /* FirsSection.swift */,
+				DD57B3F3218095D600D29DEB /* SecondSection.swift */,
+			);
+			path = Modelos;
+			sourceTree = "<group>";
+		};
+		DDCB4F66218076AC002144DB = {
+			isa = PBXGroup;
+			children = (
+				DDCB4F71218076AC002144DB /* FinalReplicarSettingsKeyboard */,
+				DDCB4F70218076AC002144DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDCB4F70218076AC002144DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDCB4F6F218076AC002144DB /* FinalReplicarSettingsKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDCB4F71218076AC002144DB /* FinalReplicarSettingsKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DD57B3F02180953300D29DEB /* Modelos */,
+				DD57B3EE218094DE00D29DEB /* ViewControllers */,
+				DDCB4F8C218077C1002144DB /* Cells */,
+				DDCB4F72218076AC002144DB /* AppDelegate.swift */,
+				DDCB4F79218076AF002144DB /* Assets.xcassets */,
+				DDCB4F7B218076AF002144DB /* LaunchScreen.storyboard */,
+				DDCB4F7E218076AF002144DB /* Info.plist */,
+			);
+			path = FinalReplicarSettingsKeyboard;
+			sourceTree = "<group>";
+		};
+		DDCB4F8C218077C1002144DB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DD57B3EC21808FF000D29DEB /* ArrowCell */,
+				DD57B3EB21808FD700D29DEB /* SwitchCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDCB4F6E218076AC002144DB /* FinalReplicarSettingsKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCB4F81218076AF002144DB /* Build configuration list for PBXNativeTarget "FinalReplicarSettingsKeyboard" */;
+			buildPhases = (
+				DDCB4F6B218076AC002144DB /* Sources */,
+				DDCB4F6C218076AC002144DB /* Frameworks */,
+				DDCB4F6D218076AC002144DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinalReplicarSettingsKeyboard;
+			productName = FinalReplicarSettingsKeyboard;
+			productReference = DDCB4F6F218076AC002144DB /* FinalReplicarSettingsKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDCB4F67218076AC002144DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "IGNACIO OLAGORTA VERA";
+				TargetAttributes = {
+					DDCB4F6E218076AC002144DB = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = DDCB4F6A218076AC002144DB /* Build configuration list for PBXProject "FinalReplicarSettingsKeyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDCB4F66218076AC002144DB;
+			productRefGroup = DDCB4F70218076AC002144DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDCB4F6E218076AC002144DB /* FinalReplicarSettingsKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDCB4F6D218076AC002144DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCB4F7D218076AF002144DB /* LaunchScreen.storyboard in Resources */,
+				DDCB4F942180819E002144DB /* GeneralViewController.xib in Resources */,
+				DDCB4F8B21807759002144DB /* PrincipalViewController.xib in Resources */,
+				DDCB4F992180892B002144DB /* SwitchTableViewCell.xib in Resources */,
+				DDCB4F90218077DD002144DB /* KeyboardsTableViewCell.xib in Resources */,
+				DDCB4F7A218076AF002144DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDCB4F6B218076AC002144DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCB4F8A21807759002144DB /* PrincipalViewController.swift in Sources */,
+				DD57B3F2218095AE00D29DEB /* FirsSection.swift in Sources */,
+				DD57B3F4218095D600D29DEB /* SecondSection.swift in Sources */,
+				DDCB4F8F218077DD002144DB /* KeyboardsTableViewCell.swift in Sources */,
+				DDCB4F982180892B002144DB /* SwitchTableViewCell.swift in Sources */,
+				DDCB4F73218076AC002144DB /* AppDelegate.swift in Sources */,
+				DDCB4F932180819E002144DB /* GeneralViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDCB4F7B218076AF002144DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDCB4F7C218076AF002144DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDCB4F7F218076AF002144DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDCB4F80218076AF002144DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDCB4F82218076AF002144DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinalReplicarSettingsKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = utad.FinalReplicarSettingsKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDCB4F83218076AF002144DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinalReplicarSettingsKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = utad.FinalReplicarSettingsKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDCB4F6A218076AC002144DB /* Build configuration list for PBXProject "FinalReplicarSettingsKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCB4F7F218076AF002144DB /* Debug */,
+				DDCB4F80218076AF002144DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCB4F81218076AF002144DB /* Build configuration list for PBXNativeTarget "FinalReplicarSettingsKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCB4F82218076AF002144DB /* Debug */,
+				DDCB4F83218076AF002144DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDCB4F67218076AC002144DB /* Project object */;
+}
